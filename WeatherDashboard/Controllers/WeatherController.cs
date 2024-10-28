@@ -1,18 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json.Linq;
 using System.Threading.Tasks;
 using WeatherDashboard.Models;
+using WeatherDashboard.Services;
 
 namespace WeatherDashboard.Controllers
 {
-    public class WeatherController : Controller
+    public class WeatherController(WeatherService weatherService) : Controller
     {
-        private readonly WeatherService _weatherService;
-
-        public WeatherController()
-        {
-            _weatherService = new WeatherService();
-        }
+        private readonly WeatherService _weatherService = weatherService;
 
         public IActionResult Index()
         {
@@ -22,19 +17,21 @@ namespace WeatherDashboard.Controllers
         [HttpPost]
         public async Task<IActionResult> GetWeather(string cityName)
         {
-            var WeatherData = await _weatherService.GetWeatherData(cityName);
-            if (WeatherData != null)
+            var viewModel = await _weatherService.GetWeatherData(cityName);
+            if (viewModel != null)
             {
-                var json = JObject.Parse(WeatherData);
-                    var viewModel = new WeatherViewModel
-                    {
-                        City = json["name"]?.ToString() ?? "Unknown City",
-                        Description = json["weather"]?[0]?["description"]?.ToString() ?? "No description available",
-                        Temperature = json["main"]?["temp"] != null ? double.Parse(json["main"]["temp"].ToString()) : 0.0,
-                        Humidity = json["main"]?["humidity"] != null ? int.Parse(json["main"]["humidity"].ToString()) : 0,
-                        WindSpeed = (json["wind"]?["speed"]) == null ? 0.0 : double.Parse(json["wind"]["speed"].ToString())
-                    };
                 return View("WeatherDetails", viewModel);
+            }
+            return View("Error");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> GetWeatherByLocation([FromBody] LocationModel location)
+        {
+            var viewModel = await _weatherService.GetWeatherDataByLocation(location.Latitude, location.Longitude);
+            if (viewModel != null)
+            {
+                return PartialView("WeatherDetails", viewModel);
             }
             return View("Error");
         }

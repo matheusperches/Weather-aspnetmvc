@@ -1,32 +1,36 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using WeatherDashboard.Models;
+using WeatherDashboard.Services;
 
 namespace WeatherDashboard.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(WeatherService weatherService) : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        private readonly WeatherService _weatherService = weatherService;
 
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        public async Task<IActionResult> FetchWeather(string city)
         {
-            return View();
-        }
+            if (string.IsNullOrWhiteSpace(city))
+            {
+                ModelState.AddModelError("", "City name cannot be empty.");
+                return View("Index");
+            }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            // Call the weather API with the provided city name
+            var weatherData = await _weatherService.GetWeatherData(city);
+            if (weatherData == null)
+            {
+                ModelState.AddModelError("", "Weather data not found for the specified city.");
+                return View("Index");
+            }
+
+            // Pass the weather data to the view
+            return View("Index", weatherData);
         }
     }
 }

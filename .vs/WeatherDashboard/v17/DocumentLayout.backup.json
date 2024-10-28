@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|c:\\users\\mathe\\desktop\\dotnet_projects\\weatherdashboard\\weather-aspnetmvc\\weatherdashboard\\views\\weather\\weatherdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|solutionrelative:weatherdashboard\\views\\weather\\weatherdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|c:\\users\\mathe\\desktop\\dotnet_projects\\weatherdashboard\\weather-aspnetmvc\\weatherdashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|solutionrelative:weatherdashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|c:\\users\\mathe\\desktop\\dotnet_projects\\weatherdashboard\\weather-aspnetmvc\\weatherdashboard\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|solutionrelative:weatherdashboard\\models\\locationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|c:\\users\\mathe\\desktop\\dotnet_projects\\weatherdashboard\\weather-aspnetmvc\\weatherdashboard\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|solutionrelative:weatherdashboard\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|c:\\users\\mathe\\desktop\\dotnet_projects\\weatherdashboard\\weather-aspnetmvc\\weatherdashboard\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|solutionrelative:weatherdashboard\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|c:\\users\\mathe\\desktop\\dotnet_projects\\weatherdashboard\\weather-aspnetmvc\\weatherdashboard\\models\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|solutionrelative:weatherdashboard\\models\\weatherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|c:\\users\\mathe\\desktop\\dotnet_projects\\weatherdashboard\\weather-aspnetmvc\\weatherdashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|solutionrelative:weatherdashboard\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|c:\\users\\mathe\\desktop\\dotnet_projects\\weatherdashboard\\weather-aspnetmvc\\weatherdashboard\\weatherdashboard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|solutionrelative:weatherdashboard\\weatherdashboard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|c:\\users\\mathe\\desktop\\dotnet_projects\\weatherdashboard\\weather-aspnetmvc\\weatherdashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BF57190-1488-43F5-AFBC-28113284E461}|WeatherDashboard\\WeatherDashboard.csproj|solutionrelative:weatherdashboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +51,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WeatherDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Views\\Weather\\WeatherDetails.cshtml",
+              "RelativeDocumentMoniker": "WeatherDashboard\\Views\\Weather\\WeatherDetails.cshtml",
+              "ToolTip": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Views\\Weather\\WeatherDetails.cshtml",
+              "RelativeToolTip": "WeatherDashboard\\Views\\Weather\\WeatherDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T22:53:29.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocationModel.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Models\\LocationModel.cs",
+              "RelativeDocumentMoniker": "WeatherDashboard\\Models\\LocationModel.cs",
+              "ToolTip": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Models\\LocationModel.cs",
+              "RelativeToolTip": "WeatherDashboard\\Models\\LocationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T22:44:26.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Models\\WeatherViewModel.cs",
+              "RelativeDocumentMoniker": "WeatherDashboard\\Models\\WeatherViewModel.cs",
+              "ToolTip": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Models\\WeatherViewModel.cs",
+              "RelativeToolTip": "WeatherDashboard\\Models\\WeatherViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T22:43:32.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Program.cs",
+              "RelativeDocumentMoniker": "WeatherDashboard\\Program.cs",
+              "ToolTip": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Program.cs",
+              "RelativeToolTip": "WeatherDashboard\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T22:31:48.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "WeatherController.cs",
               "DocumentMoniker": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Controllers\\WeatherController.cs",
               "RelativeDocumentMoniker": "WeatherDashboard\\Controllers\\WeatherController.cs",
               "ToolTip": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Controllers\\WeatherController.cs",
               "RelativeToolTip": "WeatherDashboard\\Controllers\\WeatherController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T22:23:02.919Z",
+              "WhenOpened": "2024-10-28T22:26:25.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "WeatherDashboard\\Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Services\\WeatherService.cs",
+              "RelativeToolTip": "WeatherDashboard\\Services\\WeatherService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T22:23:55.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherDashboard",
+              "DocumentMoniker": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\WeatherDashboard.csproj",
+              "RelativeDocumentMoniker": "WeatherDashboard\\WeatherDashboard.csproj",
+              "ToolTip": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\WeatherDashboard.csproj",
+              "RelativeToolTip": "WeatherDashboard\\WeatherDashboard.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-28T22:22:41.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WeatherDashboard\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WeatherDashboard\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T22:23:01.443Z",
+              "WhenOpened": "2024-10-28T22:20:39.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WeatherDashboard\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mathe\\Desktop\\dotnet_projects\\WeatherDashboard\\Weather-aspnetmvc\\WeatherDashboard\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WeatherDashboard\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T22:17:50.365Z",
               "EditorCaption": ""
             }
           ]

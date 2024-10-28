@@ -1,8 +1,45 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Weather Dashboard";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Welcome to the Weather Dashboard</h1>
+<p>Enter a city to get the latest weather updates.</p>
+
+<form asp-action="FetchWeather" method="post">
+    <label for="cityInput">Enter City:</label>
+    <input type="text" id="cityInput" name="city" placeholder="e.g., New York" required>
+    <button type="submit">Get Weather</button>
+</form>
+
+<h2>Get Weather by Location</h2>
+<button onclick="getWeatherByLocation()">Get My Location's Weather</button>
+
+<div id="weatherResults"></div>
+
+@section Scripts {
+        <script>
+            async function getWeatherByLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(async position => {
+                        const latitude = position.coords.latitude;
+                        const longitude = position.coords.longitude;
+
+                        // Make a POST request to the server with the location data
+                        const response = await fetch('/Weather/GetWeatherByLocation', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ latitude, longitude })
+                        });
+
+                        const weatherHtml = await response.text();
+                        document.getElementById('weatherResults').innerHTML = weatherHtml;
+                    }, error => {
+                        console.error("Error getting location:", error.message);
+                        alert("Unable to retrieve location.");
+                    });
+                } else {
+                    alert("Geolocation is not supported by this browser.");
+                }
+            }
+        </script>
+}
